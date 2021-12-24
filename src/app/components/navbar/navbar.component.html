@@ -1,0 +1,8 @@
+<nav  class="navbar text-center">
+  <div class="container position-relative">
+    <img *ngIf="this._AS.actual==0 || this._AS.actual==48" src="assets/images/portada-top.png" class="img-fluid" alt="">
+    <img *ngIf="this._AS.actual>0 && this._AS.actual<this._AS.end && this._AS.width_mobile>700" src="assets/images/portada-top-logos.png" class="img-fluid" alt="">
+    <img *ngIf="this._AS.actual>0 && this._AS.actual<this._AS.end && this._AS.width_mobile<700" src="assets/images/portada-top-logos-mobile.png" class="img-fluid" alt="">
+  </div>
+   
+  </nav>

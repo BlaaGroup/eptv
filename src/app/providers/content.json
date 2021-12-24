@@ -1,0 +1,797 @@
+{
+    "home":{
+       "class":"home",
+       "contents":{
+          "images":{
+             "1":"assets/images/portada-1.png",
+             "2":"assets/images/portada-2.png",
+             "3":"assets/images/portada-3.png"
+          },
+          "text":{
+             "1":"",
+             "2":"",
+             "3":""
+          }
+       }
+    },
+    "slides":{
+       "slide-1":{
+          "class":"home",
+          "images":{
+             "1":"",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"MENSAJE CLAVE",
+             "2":"El ETPV es un paso significativo para entender la migración como un factor de desarrollo y a los NNA                como actores fundamentales para ello.<br><strong>Consideraciones sobre el ETPV y la Migración como factor de desarrollo.</strong>",
+             "3":"La regularización a través del ETPV es una oportunidad para hacer realidad principios como: que ningún                niño se quede atrás, todo niño viaja con sus derechos y ante todo son niñas, niños y adolescentes.<br><strong>El ETPV y los principios de protección de los derechos de la niñez contenidos en el CDN.</strong>",
+             "4":"Sobre cómo se implemente el ETPV dependerá su éxito como instrumento de integración para los niños,                niñas y adolescentes.<br>Guía de casos y cómo garantizar que el ETPV desarrolle el enfoque de niñez.</strong>",
+             "5":"<span class='nota'>ETPV (Estatuto Temporal de Protección al Migrante Venezolano) / NNA (Niñas, Niños y Adolescentes)</span>"
+          }
+       },
+       "slide-2":{
+          "class":"home",
+          "images":{
+             "1":"assets/images/1.png",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"RESPONDE",
+             "2":"¿CUÁL ES TU MAYOR DUDA SOBRE LA IMPLEMENTACIÓN DEL ETPV Y LA NIÑEZ,<br> ¿QUÉ QUISIERAS PODER RESPONDER DESPUÉS DE ESTA CAPACITACIÓN? ",
+             "3":"TRES MENSAJES CLAVE",
+             "4":"EL ETPV ES UN PASO SIGNIFICATIVO PARA ENTENDER LA MIGRACIÓN COMO UN FACTOR DE DESARROLLO Y A LOS NNA COMO ACTORES FUNDAMENTALES PARA ELLO.",
+             "5":"<span class='nota'>ETPV (Estatuto Temporal de Protección al Migrante Venezolano) / NNA (Niñas, Niños y Adolescentes)</span>"
+          }
+       },
+       "slide-3":{
+          "class":"home",
+          "images":{
+             "1":"assets/images/slide4-titulo.png",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"¿QUÉ ES?",
+             "2":"Es un mecanismo jurídico que busca regularizar a la población de nacionalidad venezolana que se encuentra en Colombia. Es decir, autorizar su permanencia en el país. Esto a través de la expedición de un documento de identidad denominado",
+             "3":"<strong>Permiso por Protección Temporal (PPT).</strong>",
+             "4":"<span class='nota'>Normatividad <br>Decreto Presidencial 212 de 2021: Que adopta el ETPV. <br>Resolución de Migración Colombia 971 de 2021: Que implementa el ETPV.</span>",
+             "5":"<span class='nota'><strong>ETPV (Permiso por Protección Temporal)</strong></span>"
+          }
+       },
+       "slide-4":{
+          "class":"home",
+          "images":{
+             "1":"assets/images/slide5-titulo.png",
+             "2":"assets/images/slide5-personaje.png",
+             "3":""
+          },
+          "text":{
+             "1":"<span class='dot'></span>FASE 1",
+             "2":"Registro Único <u>de Migrantes Venezolanos(RUMV)</u>",
+             "3":"<span class='dot2'></span>Pre-registro virtual: - Registro biométrico.",
+             "4":"<span class='dot'></span>FASE 2",
+             "5":"<u>Expedición del PPT.</u>",
+             "6":"<span class='gray nota'>PPT (Permiso por Protección Temporal)<br>RUMV(Registro Único de Migrantes Venezolanos)</span>"
+          }
+       },
+       "slide-5":{
+          "class":"home",
+          "images":{
+             "1":"assets/images/slide6-titulo.png",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"Encontrarse regularmente como titulares de <strong>PIP, PTP o PEP.</strong>",
+             "2":"Encontrarse regularmente como titulares del salvoconducto de permanencia <strong>(proceso de solicitud de refugio).</strong>",
+             "3":"Encontrarse irregularmente a 31 de enero de 2021. <br>Entrar por puestos fronterizos legalmente habilitados durante los dos primeros años de vigencia del Estatuto (29 de mayo de 2021 al 28 de mayo de 2023)."
+          }
+       },
+       "slide-6":{
+          "class":"home",
+          "images":{
+             "1":"",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"ALGUNOS CONCEPTOS QUE TIENE EL ETPV.",
+             "2":"<span class='blue'>Pruebas Sumarias:</span><br>Es una plena prueba, la que da certeza de la ocurrencia de un hecho y no requiere ser discutida en un juicio.",
+             "3":"<span class='blue'>Ejemplos de Pruebas Sumarias:</span><br>Son documentos emitidos por entidades el Estado, organizaciones privadas registradas en las cámaras de comercio o pruebas testimoniales de ciudadanos colombianos o extranjeros que residan formalmente en Colombia (que tienen cédula de ciudadanía o extranjería) que demuestran que las personas migrantes han estado en Colombia antes del 31 de enero de 2021, y pueden registrarse en el ETPV (Estatuto Temporal de Protección al Migrante Venezolano).",
+             "4":"Estas pruebas deben incluir fecha, e individualizar plenamente a la persona migrante, entre los datos debe incluir un nombre y un número de identificación.",
+             "5":"No se exigen declaración juramentada ni certificación notarial*.",
+             "6":"*Si la prueba sumaria es un contrato de arrendamiento, este debe ser notariado.",
+             "7":"<span class='nota'>ETPV (Permiso por Protección Temporal)</span>"
+          },
+          "preguntas":{
+             "1":""
+          },
+          "respuestas":{
+             "1":""
+          }
+       },
+       "slide-7":{
+          "class":"home",
+          "images":{
+             "1":"assets/images/slide8-titulo.png",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"<span class='dot'></span> Boletín de notas emitido por una institución educativa",
+             "2":"<span class='dot'></span> Certificación de atenciones médicas",
+             "3":"<span class='dot'></span> Certificados de atención de servicios de cuidado y albergue",
+             "4":"<span class='dot'></span> Certificación de participación en programas de la cooperación internacional."
+            
+          }
+       },
+       "slide-8":{
+          "class":"home",
+          "images":{
+             "1":"",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"REFLEXIONA Y MENCIONA, EN UNA PALABRA:",
+             "2":"¿CÓMO BENEFICIA EL ESTATUTO A LOS NNA EN CONDICIÓN DE MOVILIDAD HUMANA?",
+             "3":"Responda por favor en esta caja de texto",
+             "4":"<span class='nota'><strong>NNA (Niñas, Niños y Adolescentes)</strong></span>"
+          }
+       },
+       "slide-9":{
+          "class":"home",
+          "images":{
+             "1":"assets/images/slide10-personaje.png",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"¿Por qué el Estatuto Temporal de Protección a Migrantes Venezolanos es importante <br> <u>para los NNA migrantes y para Colombia?</u>",
+             "2":"<span class='dot'></span> La regularización de los NNA en condición de movilidad humana es un importante paso para la realización de sus derechos y así, para su integración en Colombia.",
+             "3":"<span class='dot'></span> Conocer el número de NNA en condición de movilidad humana, así como sus necesidades, le permitirá al Estado Colombiano planear mejores políticas para lograr su protección a través del acceso a servicios y programas que contribuyen a la realización de sus derechos.",
+             "4":"<span class='dot'></span> Se promueve la migración como factor para el desarrollo y se reconoce a los NNA como actores fundamentales en este propósito.",
+             "5":"<span class='nota'><strong>NNA (Niñas, Niños y Adolescentes)</strong></span>"
+          }
+       },
+       "slide-10":{
+          "class":"home",
+          "images":{
+             "1":"assets/images/slide11-titulo.png",
+             "2":"",
+             "3":""
+          },
+          "text":{
+             "1":"¿Estás de acuerdo o en desacuerdo con estas ideas?",
+             "2":"<span class='dot'></span>La Migración podría ser una oportunidad para generar mayor bienestar social y económico en Colombia.",
+             "3":"<span class='dot'></span>Los NNA en condición de movilidad humana no tienen ningún rol para promover el desarrollo económico"
+          },
+          "preguntas":{
+             "1":"Por favor marque una de las dos opciones",
+             "2":"Por favor marque una de las dos opciones"
+          },
+          "respuestas":{
+             "1":"DE ACUERDO",
+             "2":"EN DESACUERDO"
+          }
+       },
+       "slide-11":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide12-personaje.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"<u>LA MIGRACIÓN Y EL DESARROLLO</u>",
+             "2":"<span class='dot'></span>Incrementa la fuerza laboral y su cualificación.",
+             "3":"<span class='dot'></span>Aumenta el consumo y la inversión.",
+             "4":"<span class='dot'></span>Genera un aumento en la recaudación de impuestos que posibilita que el Estado pueda ofrecer más y mejores servicios.",
+             "5":"<span class='dot'></span>Las sociedades que experimentan fenómenos migratorios al volverse más diversas aumentan su capital y riqueza cultural.",
+             "6":"<span class='dot'></span>Las adversidades y cambios a los que se enfrentan las poblaciones migrantes hacen que estos asuman una actitud emprendedora e innovadora que promueven el desarrollo.",
+             "7":"<span class='nota'><strong>El ETPV es un paso significativo hacia administrar mejor el fenómeno migratorio para el desarrollo permite la integración de la población migrantes a través de canales formales que los conectan con oportunidades económicas y sociales</strong></span>",
+             "8":"La migración, bien administrada, es una oportunidad para el desarrollo económico y social."
+         }
+     },
+     "slide-12":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide13-personaje.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"Los NNA migrantes son actores fundamentales para pensar la migración como una <br><u>oportunidad de desarrollo porque:</u>",
+             "2":"Invertir en servicios y programas que garanticen la realización de lo derechos de los NNA fortalece su proceso de desarrollo y amplia las oportunidades para que estos se conviertan en adultos que contribuyan positivamente a Colombia.",
+             "3":"Los NNA constituyen no sólo un grupo poblacional muy significativo de los migrantes que viven en Colombia (~ 30%) sino que serán ellos la generación que crezca y se desarrolle en una sociedad donde conviven y trabajan mutuamente por el desarrollo del país la población migrante y colombiana.",
+             "4":"Desarrollar programas de fortalecimiento e integración socioeconómica de adolescentes que migran de manera autónoma puede contribuir a reducir problemáticas que afectan el desarrollo como la explotación laboral la habitabilidad de calle y la ruptura de las trayectorias educativas.",
+             "5":"<span class='nota'><strong>NNA (Niñas, Niños y Adolescentes)</strong></span>"
+         }
+     },
+     "slide-13":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/2.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"TRES MENSAJES CLAVE",
+             "2":"LA REGULARIZACIÓN A TRAVÉS DEL ETPV, ES UNA OPORTUNIDAD PARA HACER REALIDAD PRINCIPIOS COMO QUE NIÑAS, NIÑOS Y ADOLESCENTES VIAJAN CON SUS DERECHOS PLENOS."
+         }
+     },
+     "slide-14":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide15-personaje1.png",
+             "2":"assets/images/slide15-personaje2.png",
+             "3":""
+         },
+         "text":{
+             "1":"AHORA:<br>REFLEXIONEMOS SOBRE PRINCIPIOS Y CONCEPTOS <br><u>FUNDAMENTALES DE PROTECCIÓN DE NNA.</ur>",
+             "2":"Los principios están contenidos en tratados internacionales ratificados por Colombia como la Convención Internacional de los Derechos del Niño. "
+         }
+     },
+     "slide-15":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide16-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"¿Qué son los estándares internacionales de protección de los derechos de lo niños, <br><u>niñas y adolescentes?</u> ",
+             "2":"",
+             "3":""
+         },
+         "preguntas":{
+             "1":"Por favor marque alguna de las opciones"
+         },
+         "respuestas":{
+             "1":"Son las explicaciones del por qué se deben respetar los derechos de la niñez.",
+             "2":"Son los derechos en sí mismos.",
+             "3":"Son principios que guían las decisiones que se toman frente a los niños.",
+             "4":"Ninguno de los anteriores."
+         }
+     },
+     "slide-16":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide17-personaje1.png",
+             "2":"", 
+             "3":""
+         },
+         "text":{
+             "1":"El ETPV está inspirado en los principios internacionales de protección y dedica una parte de su articulado a desarrollar acciones concretas para garantizar los derechos de los NNA.",
+             "2":"¿Cómo se hace realidad la máxima de “ante todo son NNA”?",
+             "3":"Garantizando que las decisiones que se tomen y que los afecten les generen el mayor beneficio (interés superior), y que en ellas sean escuchados y tenidos en cuenta, de acuerdo a su edad y madurez (participación) y que se garantice el respeto, la protección y la realización de los derechos de todos los <strong>NNA</strong>, sin importar su condición migratoria, su origen étnico, su orientación sexual o nacionalidad (no discriminación). <br>Finalmente, que las decisiones de los gobiernos, las familias y las comunidades garanticen la vida y el desarrollo de los <strong>NNA (Vida y desarrollo)</strong>. ",
+             "4":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)/ NNA (Niñas, Niños y Adolescentes)</strong></span>"
+         }
+     },
+     "slide-17":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide18-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"ADEMÁS EXISTEN PRINCIPIOS QUE SON APLICABLES QUE HACEN REALIDAD MÁXIMAS COMO QUE “TODO NNA VIAJA CON SUS DERECHOS”.",
+             "2":"Se trata de principios que consideran las especiales circunstancias que enfrentan muchos NNA en contexto de movilidad humana.",
+             "3":"<span class='nota'><strong>NNA (Niñas, Niños y Adolescentes)</strong></span>"
+         }
+     },
+     "slide-18":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide19-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"<u>UNIDAD FAMILIAR</u>",
+             "2":"En las decisiones que afecten a los <strong>NNA</strong> se debe privilegiar la unidad familiar. <br>Se debe reconocer que existen múltiples formas de familia.",
+             "3":"<u>NO DETENCIÓN</u>",
+             "4":"En ningún caso se puede privar de la libertad a un <strong>NNA</strong> por su condición migratoria.",
+             "5":"<u>FINALMENTE</u>",
+             "6":"El ETPV en el título IV, desarrolla medidas para la niñez y adolescencia, especialmente los NNA no acompañados, separados, en riesgo o victimas de violencia, abuso o explotación. ",
+             "7":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)/    NNA (Niñas, Niños y Adolescentes)</strong></span>"
+         }
+     },
+     "slide-19":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide20-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"<u>NIÑA, NIÑO O ADOLESCENTE</u>",
+             "2":"Es todo ser humano menor de dieciocho años de edad, salvo que, en virtud de la ley que le sea aplicable, haya alcanzado antes la mayoría de edad.",
+             "3":"<u>NIÑA Ó NIÑO NO ACOMPAÑADO</u>",
+             "4":"Que no se encuentra junto a sus padres o cuidadores legalmente reconocidos, ni con ningún miembro de su familia.",
+             "5":"<u>NIÑA Ó NIÑO SEPARADO</u>",
+             "6":"Que no se encuentra junto a sus padres o cuidadores legalmente reconocido, pero sí con algún miembro de su familia."
+         }
+     },
+     "slide-20":{
+         "class":"home",
+         "images":{
+             "1":"",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"El ETPV es aplicable a todos los NNA venezolanos que están en Colombia y se privilegia en esta implementación su interés superior y la protección de sus derechos (articulo 25).",
+             "3":"Los NNA que se encuentran con sus padres o representantes legales, que son no acompañados o separados, se encuentran en el sistema de protección del ICBF o los adolescentes que están en el Sistema de Responsabilidad Penal Adolescente pueden acceder al Estatuto.",
+             "4":"En la implementación del Estatuto para ellos las autoridades migratorias aplicarán los principios de corresponsabilidad, interés superior, prevalencia de derechos y unidad familiar.",
+             "5":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)   /  NNA (Niñas, Niños y Adolescentes) <br>ICBF (Instituto Colombiano de Bienestar Familiar)</span>"
+         }
+     },
+     "slide-21":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide22-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"¿El ETPV es aplicable a todos los NNA, incluyendo los no acompañados, los separados y los que están en el sistema de protección?",
+             "2":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)   /  NNA (Niñas, Niños y Adolescentes)</span>"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"CREO QUE SÍ",
+             "2":"YA SÉ LA RESPUESTA",
+             "3":"CREO QUE NO"
+         }
+     },
+     "slide-22":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide23-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"Los NNA no acompañados pueden registrarse en el RUMV (Parágrafo del artículo 25).",
+             "3":"La etapa de pre-registro virtual está abierta para todos los NNA incluso aquellos que se encuentran no acompañados. ",
+             "4":"En la fase de registro biométrico la autoridad migratoria referenciará la situación al Instituto Colombiano de Bienestar Familiar. ",
+             "5":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)  /  NNA (Niñas, Niños y Adolescentes)<br>RUMV (Registro Único de Migrantes Venezolanos)</span>"
+         }
+     },
+     "slide-23":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide24-titulo.png",
+             "2":"assets/images/slide24-personaje1.png",
+             "3":""
+         },
+         "text":{
+             "1":"¿Los NNA no acompañados no pueden registrarse solos en el RUMV?",
+             "2":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)<br>RUMV (Registro Único de Migrantes Venezolanos)<br>NNA (Niñas, Niños y Adolescentes)</span>"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"CREO QUE SÍ",
+             "2":"YA SÉ LA RESPUESTA",
+             "3":"CREO QUE NO"
+         }
+     },
+     "slide-24":{
+         "class":"home",
+         "images":{
+             "1":"",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"Los NNA que no cuentan con documentación de identidad pueden ser registrados en el RUMV (Numeral 4 del artículo 27).",
+             "3":"Cuando un NNA por alguna razón no cuente con documentación de identidad este podrá registrarse en el RUMV. Para hacer esto posible, en el apartado donde debe cargarse copia del documento de identidad, el representante legal NNA deberá cargar una comunicación en la que explique los motivos de la ausencia de documentación",
+             "4":"<span class='nota'><strong>RUMV (Registro Único de Migrantes Venezolanos) / NNA (Niñas, Niños y Adolescentes) </span>"
+         }
+     },
+     "slide-25":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide26-titulo.png",
+             "2":"assets/images/slide26-personaje1.png",
+             "3":""
+         },
+         "text":{
+             "1":"¿Los NNA que no tienen documentos se pueden registrar en el RUMV?",
+             "2":"<span class='nota'><strong>RUMV (Registro Único de Migrantes Venezolanos)<br>NNA (Niñas, Niños y Adolescentes)</span>"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"CREO QUE SÍ",
+             "2":"YA SÉ LA RESPUESTA",
+             "3":"CREO QUE NO"
+         }
+     },
+     "slide-26":{
+         "class":"home",
+         "images":{
+             "1":"",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"Para la expedición del PPT de los NNA se requieren documentos que demuestren su relación de parentesco o familiaridad con adultos que los registraron <br><span class='darkBlue fw600'>(artículo 31).</span>",
+             "2":"Se priorizan para la obtención del PPT los adolescentes que hayan terminado sus estudios de educación media y que no hayan podido obtener el título de bachiller por ausencia de un documento de identidad. De igual manera, se priorizan los adolescentes que se encuentran en el Sistema de Responsabilidad Penal Adolescente.<br><span class='darkBlue fw600'>(artículo 33).</span>",
+             "3":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano) / NNA (Niñas, Niños y Adolescentes)</span>"
+         }
+     },
+     "slide-27":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide28-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"¿Se debe adjuntar prueba de parentesco o representación legal entre los menores de 18 años y los adultos que los registran?"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"CREO QUE SÍ",
+             "2":"YA SÉ LA RESPUESTA",
+             "3":"CREO QUE NO"
+         }
+     },
+     "slide-28":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/3.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"TRES MENSAJES CLAVE",
+             "2":"SOBRE CÓMO SE IMPLEMENTE EL ETPV DEPENDERÁ<br>SU ÉXITO COMO INSTRUMENTO DE INTEGRACIÓN PARA LOS NNA."
+         }
+     },
+     "slide-29":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide30-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"AHORA SÍ, <br>VAMOS A ANALIZAR LOS CASOS.",
+             "2":"¿Para qué sirve el aprendizaje basado en casos?",
+             "3":"<span class='dot'></span> Permite reflexionar sobre situaciones reales.",
+             "4":"<span class='dot'></span> Orienta el aprendizaje a implementar conceptos y a tomar decisiones a partir de su aplicación.",
+             "5":"<span class='dot'></span> Permite evaluar las opiniones, los valores y las creencias de quienes participan.",
+             "6":"<span class='dot'></span> Brinda la oportunidad de entender la complejidad de las situaciones que se analizan. "
+         }
+     },
+     "slide-30":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide31-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"¡AVISO IMPORTANTE!",
+             "2":"Los casos que se presentan a continuación son ficticios así como los nombres de las personas y las situaciones. Su función es ser una herramienta pedagógica para el análisis y el aprendizaje.",
+             "3":"Estos casos han sido construidos con las voces de las comunidades y los funcionarios en los territorios que implementan el ETPV, pero son sólo aproximaciones a dilemas y preguntas a las que se enfrentan los funcionarios y las comunidades a la hora de implementar el ETPV en sus distintas fases.",
+             "4":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)</strong></span>"
+         }
+     },
+     "slide-31":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide32-personaje1.png",
+             "2":"assets/images/slide32-titulo.png",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"Olimar y su sobrina llegaron hace tres años desde Mérida. La <strong>ONG local “JUNTOS”</strong> recibió un mensaje de una mujer venezolana que solicita alguna información para el registro de su sobrina Gabriela con la que llegó a Colombia por una trocha en el 2017:",
+             "3":"Mi nombre es Olimar García, tengo 35 años y quiero registrar como parte de mi familia en el ETPV a mi sobrina Gabriela que tiene 16. Yo soy la responsable de ella, desde que tenía 10 años cuando su mamá emigró a Estados Unidos. Antes de venir a Colombia, mi hermana firmó un documento en el que me autorizaba a traer a la niña a Colombia, pero ese documento no está certificado. Cuando viaje para Colombia saque los certificados de nacimiento de la niña, los perdí en el camino. ¿Qué debo hacer?",
+             "4":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)</strong></span>"
+         }
+     },
+     "slide-32":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide33-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"CASOS Y PREGUNTAS A LAS QUE RESPONDEN",
+             "2":"Caso 1: ¿Puede Olimar registrar a Gabriela en el ETPV?",
+             "3":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)<br>NNA (Niñas, Niños y Adolescentes</strong></span>"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"NNA separados.",
+             "2":"Tipo de documentos que demuestran la custodia el cuidado de menores de 18 años.",
+             "3":"Procedimientos para determinar la custodia el cuidado de menores de 18 años."
+         }
+     },
+     "slide-33":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide34-personaje1.png",
+             "2":"assets/images/slide34-titulo.png",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"Adrián y su familia se quieren registrar al Estatuto. <br>En el proceso de registro en el municipio de Riohacha, un funcionario de Migración Colombia recibe a Adrián, sus dos hijos y su pareja. Adrián le expone al funcionario su situación: ",
+             "3":"Yo soy Adrián López, vengo con mi pareja Marcela, y mis dos hijos de tres y dos años. Llegamos a Colombia en el 2018, después de que el niño pequeño nació porque como sabe en Venezuela la situación es muy difícil para la atención en salud, y el niño nació con un problema respiratorio. Yo trabajo en construcción y Marcela cuida de los niños. Yo tengo 17 años, en dos meses cumplo los 18 y Marcela tiene 16, ya casi 17. Vengo a registrarme para tener el permiso temporal de protección con toda mi familia. ¿Usted me puede ayudar a registrarnos?"
+         }
+     },
+     "slide-34":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide35-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"CASOS Y PREGUNTAS A LAS QUE RESPONDEN",
+             "2":"Caso 2: ¿Debe el funcionario permitir que Adrián y su familia se registren en el ETPV?"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"Adolescentes no acompañados",
+             "2":"Adolescentes que ejercen cuidado sobre de niños y niñas menores."
+         }
+     },
+     "slide-35":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide36-personaje1.png",
+             "2":"assets/images/slide36-titulo.png",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"Andreina está buscando los documentos para registrar a su hija. Andreina, le pregunta a Estella, su vecina en el barrio Atalaya en Cúcuta, si sabe sobre qué documentos cree ella que le pueden servir para demostrar que su hija ha estado en Colombia antes del 31 de enero de 2021, para ser cubierta por el <strong>ETPV.</strong>",
+             "3":"“Oye Estella, estuve mirando y tratando de registrarme en esto del Estatuto de Protección para Migrantes Venezolanos. Traté de registrarme con mi hija, pero me surgió una duda. Piden una prueba, un documento que demuestre que la niña ha estado aquí , porque tu sabes que nosotros entramos por la trocha. ¿Será que el contrato que yo firme del arriendo aquí en el barrio me sirve para ella? Yo pienso presentar esto para mi, pero no se si puede ser este documento u otro en específico para la niña. ¿Tu qué me recomiendas Estella?"
+         }
+     },
+     "slide-36":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide37-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"CASOS Y PREGUNTAS A LAS QUE RESPONDEN",
+             "2":"Caso 3: ¿Qué documentos le sirven a Andreina para demostrar que su hija ha estado en Colombia antes del 31 de enero de 2021?"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"Pruebas sumarias para demostrar que se ha estado en Colombia antes de la fecha que ha establecido el Estatuto.",
+             "2":"Extensibilidad de la prueba sumaria de padres y/o cuidadores a NNA.",
+             "3":"Tipos de pruebas sumarias que pueden servir para los NNA."
+         }
+     },
+     "slide-37":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide38-personaje1.png",
+             "2":"assets/images/slide38-titulo.png",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"Juan trajo a sus hijas después del 31 de enero de 2021. Juan trabaja en un restaurante en Ipiales. Sus hijas Gisella y Susana llegaron en marzo de 2021, junto con su tía. Juan le cuenta su situación a su jefe en el restaurante:",
+             "3":"“Jefe, quería ver si me puede dar un permiso. Tengo que ir a hacer una averiguación por eso del estatuto de protección para las niñas. Como usted sabe las niñas llegaron con la tía ahora en marzo. Yo las quería traer antes, pero por el COVID eso fue imposible. Ahora resulta que al parecer las niñas no pueden aplicar porque llegaron después del 31 de enero de 2021 que es la fecha límite que ponen ahí. Estoy muy preocupado porque yo quisiera que las niñas pudieran aplicar al ETPV para poderlas inscribir en el colegio”",
+             "4":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)</strong></span>"
+         }
+     },
+     "slide-38":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide39-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"CASOS Y PREGUNTAS A LAS QUE RESPONDEN",
+             "2":"Caso 4: ¿Qué debe hacer Juan si sus hijas llegaron después del 31 de enero de 2021?",
+             "3":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)<br>NNA (Niñas, Niños y Adolescentes)</strong></span>"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"Los NNA que llegaron después de la fecha que indica EL ETPV.",
+             "2":"Extensibilidad del cumplimiento del requisito de la fecha para menores de 18 años que llegaron después del 31 de enero de 2021."
+         }
+     },
+     "slide-39":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide40-personaje1.png",
+             "2":"assets/images/slide40-titulo.png",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"Roberto vive en un albergue y quiere registrarse con sus hijos. Roberto llegó a Colombia junto con sus dos hijos a principios de 2019. Con la pandemia y las restricciones fue expulsado del paga diario donde vivía, durante algunos meses tuvo que vivir en la calle y desde hace algunas semanas está en un albergue temporal operado por una <strong>ONG local de Barranquilla</strong>. En este albergue le han garantizado que va a poder estar sólo por dos meses más. Llenando su pre-registro virtual y el de sus hijos, Roberto llama a una línea de información a preguntar sobre el apartado de domicilio: ",
+             "3":"“Aló, buenas tardes, mi nombre es Roberto, los estoy llamando porque tengo una duda. Quiero registrarme en el Estatuto con mis hijos, pero para el registro ví que se necesita indicar el domicilio. Yo estoy viviendo en un albergue aquí solo voy a vivir dos meses más.",
+             "4":"¿Ustedes creen que tendré algún problema para poder registrarme con los niños o para que después me den el <strong>PPT</strong> si cambié de residencia?, la verdad es que no quisiera que irme a registrar me generara algún inconveniente, por ejemplo, con que piensen que los niños no están bien conmigo por no tener una casa o un lugar fijo para vivir.”"
+         }
+     },
+     "slide-40":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide41-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"CASOS Y PREGUNTAS A LAS QUE RESPONDEN",
+             "2":"Caso 5: ¿Puede Roberto registrarse con sus hijos si aún no tiene un domicilio fijo?",
+             "3":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)<br>NNA (Niñas, Niños y Adolescentes)</strong></span>"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"Certificados de domicilio para familias, NNA.",
+             "2":"Implementación del ETPV para migrantes que se encuentran en un alto grado de vulnerabilidad y/o en situación de habitabilidad de calle."
+         }
+     },
+     "slide-41":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide42-personaje1.png",
+             "2":"assets/images/slide42-titulo.png",
+             "3":""
+         },
+         "text":{
+             "1":"Lea con detenimiento esta información para responder la siguiente pregunta.",
+             "2":"Adriana se inscribió al ETPV junto con sus hijos y quiere conocer cómo acceder a educación y salud.",
+             "3":"Adriana, está en Colombia hace tres años, sus hijos llegaron hace dos años. Su hijo mayor de 9 años, no estudia desde que llegó a Colombia y su hijo menor de 5 padece de una enfermedad muscular que no ha podido ser tratada. Al llegar a Colombia, Adriana ha acudido a distintas organizaciones para conseguir una atención médica general y gestionar un cupo para su hijo mayor. Sin embargo, esto aún no ha sido posible. Adriana le pregunta a un funcionario de una organización internacional que debe hacer ahora que existe el ETPV:",
+             "4":"“Miré, yo me vine para Colombia porque quería un mejor futuro para mis hijos. Al principio vine sola para ver cómo era la situación, pero después hice que mi mamá viniera con mis hijos. Desde que ellos llegaron he estado acudiendo a varias organizaciones para conseguir una cita médica especializada para mi hijo menor y un cupo en el colegio para mi hijo mayor, pero a pesar que he conseguido algunas atenciones de medicina general y mi hijo mayor estuvo yendo a una estrategia de nivelación escolar, no he podido conseguir ni un cupo en el colegio ni una cita con la eps. Ahora que me registre para el ETPV quisiera saber que necesito para poder lograr la atención y si puedo ir ya mismo a buscar el cupo y la cita. Tengo muchas dudas sobre lo que debería hacer”"
+         }
+     },
+     "slide-42":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide43-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"CASOS Y PREGUNTAS A LAS QUE RESPONDEN",
+             "2":"Caso 6: ¿Puede Adriana inscribir a sus hijos en el colegio o pedir una cita en la EPS tras registrarse en el ETPV? ",
+             "3":"<span class='nota'><strong>ETPV (Estatuto Temporal de Protección al Migrante Venezolano)<br>NNA (Niñas, Niños y Adolescentes)</strong></span>"
+         },
+         "preguntas":{
+             "1":"Por favor marque una de las opciones"
+         },
+         "respuestas":{
+             "1":"Acceso a servicios y programas tras la inscripción en El ETPV.",
+             "2":"Requisitos para el acceso a servicios de salud y educación.",
+             "3":"Derechos de los NNA antes, durante y después de obtener el permiso especial de protección. Adolescentes reunificación autonomía."
+         }
+     },
+     "slide-43":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide43-titulo.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"<span class='dot'></span> Se conformarán grupos de debate. Cada grupo deberá nombrar un vocero para cada uno de los casos. El vocero debe ser diferente para cada caso garantizando que el máximo número de participantes tenga la posibilidad de hablar en nombre del grupo. ",
+             "2":"<span class='dot'></span> Se leerán los casos en la sala común y después cada grupo tendrá 5 minutos para discutir en salas privadas el caso respondiendo estas preguntas:",
+             "3":"<ol><li>¿Cuál es el dilema que presenta el caso?</li><li>¿Cómo lo solucionarían aplicando los principios y conceptos vistos?</li><li>¿Qué problemas resuelve y que problemas no resuelve la solución propuesta?</li><li>¿Cuáles son las limitaciones y alcances del ETPV en el caso?</li></ol>",
+             "4":"<span class='dot'></span> En la sala general un grupo por sorteo tendrá que exponer el caso (todos deben prepararlo porque pueden ser llamados al azar, incluso puede ocurrir que un mismo grupo deba participar dos o más veces). Al final se dejará un espacio para las intervenciones de personas de otros grupos complementando o sugiriendo otros elementos para la reflexión.",
+             "5":"<strong>Los casos son complejos y plantean dilemas importantes. No existe una respuesta totalmente correcta o incorrecta. ¡El objetivo es que podamos reflexionar acerca de cómo aplicando los principios se puede dar una mejor respuesta a ellos!</strong>"
+         }
+     },
+     "slide-44":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide45-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"RESPONDE",
+             "2":"¿Qué pregunta tienes sobre el ETPV y la niñez y adolescencia?"
+         },
+         "preguntas":{
+             "1":"Responda por favor en esta caja de texto"
+         },
+         "respuestas":{
+             "1":""
+         }
+     },
+     "slide-45":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide46-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"RESPONDE",
+             "2":"¿Qué de lo que reflexionaste consideras que es muy valioso para tu trabajo?"
+         },
+         "preguntas":{
+             "1":"Responda por favor en esta caja de texto"
+         },
+         "respuestas":{
+             "1":""
+         }
+     },
+     "slide-46":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide47-personaje1.png",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"CONCLUSIONES Y PREGUNTAS",
+             "2":"Es el momento de expresar lo que sientes, te genera dudas o lo que quisieras profundizar."
+         },
+         "preguntas":{
+             "1":"Responda por favor en esta caja de texto"
+         },
+         "respuestas":{
+             "1":""
+         }
+     },
+     "slide-47":{
+         "class":"home",
+         "images":{
+             "1":"",
+             "2":"",
+             "3":""
+         },
+         "text":{
+             "1":"¡Gracias!"
+         }
+     },
+     "slide-48":{
+         "class":"home",
+         "images":{
+             "1":"assets/images/slide49-personaje1.png",
+             "2":"assets/images/slide49-titulo.png",
+             "3":""
+         },
+         "text":{
+             "1":""
+         }
+     }
+     
+     
+     
+ }   
+}
+ 
+ 

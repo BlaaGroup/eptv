@@ -1,0 +1,30 @@
+<footer class="footer">
+    <div class="container position-relative">
+        <!-- {{this._AS.actual}} -->
+        <div class="row">
+            <div class="img-sliders">
+                <img *ngIf="this._AS.actual==4" [src]="this.content.slides['slide-4'].images['2']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==9" [src]="this.content.slides['slide-9'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==12" [src]="this.content.slides['slide-12'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==15" [src]="this.content.slides['slide-15'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==16" [src]="this.content.slides['slide-16'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==17" [src]="this.content.slides['slide-17'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==22" [src]="this.content.slides['slide-22'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==29" [src]="this.content.slides['slide-29'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==30" [src]="this.content.slides['slide-30'].images['1']" class="img-fluid _2" alt="">
+                <img *ngIf="this._AS.actual==44" [src]="this.content.slides['slide-44'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==45" [src]="this.content.slides['slide-45'].images['1']" class="img-fluid" alt="">
+                <img *ngIf="this._AS.actual==46" [src]="this.content.slides['slide-46'].images['1']" class="img-fluid" alt="">
+            </div>
+            <div class="col-12 div-botones text-right">
+               
+                <a *ngIf="this._AS.actual>0 " (click)="this._AS.beforeSlide(this._AS.actual)" class="btn btn-primary mr-3" >Anterior</a>
+                <a *ngIf="this._AS.actual<this._AS.end" (click)="this._AS.nextSlide(this._AS.actual)" class="btn btn-primary" >Siguiente</a>
+                <a *ngIf="this._AS.actual == this._AS.end" (click)="this._AS.resetPPT()" class="btn btn-primary" >Reiniciar</a>
+            </div>
+        
+            <img src="assets/images/portada-footer.png" class="img-fluid" alt="">
+        </div>
+    </div>
+    
+</footer>

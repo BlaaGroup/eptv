@@ -1,0 +1,1031 @@
+<app-navbar></app-navbar>
+<div *ngIf="this.content" class="container ">
+  <div class="row">
+    <section [ngClass]="{'active': this._AS.actual=='0'}" class="section home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-3 d-flex align-items-end ">
+            <img [src]="this.content.home.contents.images['2']" class="img-fluid img-home" alt="">
+          </div>
+          <div class="col-12 col-md-6 d-flex align-items-end ">
+            <img [src]="this.content.home.contents.images['1']" class="img-fluid " alt="">
+          </div>
+          <div class="col-12 col-md-3 d-flex align-items-end div-libros">
+            <img [src]="this.content.home.contents.images['3']" class="img-fluid img-home" alt="">
+          </div>
+        </div>
+      </div>
+   
+
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='1'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content _2">
+            <h1 class="fw700 blue text-center  mb-3"
+              [innerHTML]="this.content.slides['slide-1'].text['1'] | safehtml"></h1>
+            <p class="gray" [innerHTML]="this.content.slides['slide-1'].text['2'] | safehtml"></p>
+            <p class="gray" [innerHTML]="this.content.slides['slide-1'].text['3'] | safehtml"></p>
+            <p class="gray" [innerHTML]="this.content.slides['slide-1'].text['4'] | safehtml"></p>
+            <p class="gray fsize_8" [innerHTML]="this.content.slides['slide-1'].text['5'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='2'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h4 class="fw700 blue text-center  mb-3"
+              [innerHTML]="this.content.slides['slide-2'].text['1'] | safehtml"></h4>
+            <h5 class=" text-center" [innerHTML]="this.content.slides['slide-2'].text['2'] | safehtml"></h5>
+            <div class="form-group">
+              <label for="text" class="">Responda por favor en esta caja de texto</label>
+              <textarea name="" id="caja_texto_slide_2" cols="30" class="form-control" value="this._AS.caja_texto_slide_2" rows="3"></textarea>
+            </div>
+            <h5 class="blue fw700 text-center" [innerHTML]="this.content.slides['slide-2'].text['3'] | safehtml"></h5>
+            <img [src]="this.content.slides['slide-2'].images['1']" class="img-fluid text-center img-boton" alt="">
+            <h5 class=" blue text-center" [innerHTML]="this.content.slides['slide-2'].text['4'] | safehtml"></h5>
+            <p class=" text-center fsize_8" [innerHTML]="this.content.slides['slide-2'].text['5'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='3'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-3'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="darlBlue mt-2" [innerHTML]="this.content.slides['slide-3'].text['1'] | safehtml"></h2>
+              <h3 class="gray mt-2" [innerHTML]="this.content.slides['slide-3'].text['2'] | safehtml"></h3>
+              <h3 class="gray mt-2" [innerHTML]="this.content.slides['slide-3'].text['3'] | safehtml"></h3>
+              <p class="gray mt-2" [innerHTML]="this.content.slides['slide-3'].text['4'] | safehtml"></p>
+              <p class="gray mt-2" [innerHTML]="this.content.slides['slide-3'].text['5'] | safehtml"></p>
+              </div>
+            </div>
+       
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='4'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left d-flex bgray justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-4'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+  
+  
+            <h3 class="darkBlue mt-2" [innerHTML]="this.content.slides['slide-4'].text['1'] | safehtml"></h3>
+            <p class="blue   mt-2 ml-4" [innerHTML]="this.content.slides['slide-4'].text['2'] | safehtml"></p>
+            <p class="gray  mt-2 ml-4" [innerHTML]="this.content.slides['slide-4'].text['3'] | safehtml"></p>
+            <h3 class="darkBlue mt-2" [innerHTML]="this.content.slides['slide-4'].text['4'] | safehtml"></h3>
+            <p class="blue  mt-2 ml-4" [innerHTML]="this.content.slides['slide-4'].text['5'] | safehtml"></p>
+            <p class=" mt-5 " [innerHTML]="this.content.slides['slide-4'].text['6'] | safehtml"></p>
+          </div>
+  
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='5'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left d-flex bgray justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-5'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+  
+            <h3 class="darkBlue  mt-2" [innerHTML]="this.content.slides['slide-5'].text['1'] | safehtml"></h3>
+            <h3 class="gray mt-2" [innerHTML]="this.content.slides['slide-5'].text['2'] | safehtml"></h3>
+            <h3 class="gray mt-2" [innerHTML]="this.content.slides['slide-5'].text['3'] | safehtml"></h3>
+  
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='6'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h2 class="fw700 blue text-center  mb-5"
+              [innerHTML]="this.content.slides['slide-6'].text['1'] | safehtml"></h2>
+            <p class="gray" [innerHTML]="this.content.slides['slide-6'].text['2'] | safehtml"></p>
+            <p class="gray" [innerHTML]="this.content.slides['slide-6'].text['3'] | safehtml"></p>
+            <p class="gray" [innerHTML]="this.content.slides['slide-6'].text['4'] | safehtml"></p>
+            <p class="gray " [innerHTML]="this.content.slides['slide-6'].text['5'] | safehtml"></p>
+            <p class="gray " [innerHTML]="this.content.slides['slide-6'].text['6'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='7'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-7'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <h3 class="gray mt-2" [innerHTML]="this.content.slides['slide-7'].text['1'] | safehtml"></h3>
+            <h3 class="gray mt-2" [innerHTML]="this.content.slides['slide-7'].text['2'] | safehtml"></h3>
+            <h3 class="gray mt-2" [innerHTML]="this.content.slides['slide-7'].text['3'] | safehtml"></h3>
+            <h3 class="gray mt-2" [innerHTML]="this.content.slides['slide-7'].text['4'] | safehtml"></h3>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='8'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h2 class="fw400 blue text-center  mb-5"
+              [innerHTML]="this.content.slides['slide-8'].text['1'] | safehtml"></h2>
+            <h1 class="fw700 darkBlue text-center  mb-5"
+              [innerHTML]="this.content.slides['slide-8'].text['2'] | safehtml"></h1>
+            <div class="form-group">
+              <label for="text" class="" [innerHTML]="this.content.slides['slide-8'].text['3'] | safehtml"></label>
+              <textarea name="" id="caja_texto_slide_8" cols="30" class="form-control" value="this._AS.caja_texto_slide_8" rows="4"></textarea>
+            </div>
+            <p class="gray " [innerHTML]="this.content.slides['slide-8'].text['4'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='9'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h2 class="fw700 blue text-center  mb-5 pl-5 pr-5"
+              [innerHTML]="this.content.slides['slide-9'].text['1'] | safehtml"></h2>
+  
+          </div>
+          <div class="col-12 col-md-8 slide-content ">
+            <h4 class="gray mt-2" [innerHTML]="this.content.slides['slide-9'].text['2'] | safehtml"></h4>
+            <h4 class="gray mt-2" [innerHTML]="this.content.slides['slide-9'].text['3'] | safehtml"></h4>
+            <h4 class="gray mt-2" [innerHTML]="this.content.slides['slide-9'].text['4'] | safehtml"></h4>
+  
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='10'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-10'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-center">
+            <h3 class="gray mt-2 mb-3" [innerHTML]="this.content.slides['slide-10'].text['1'] | safehtml"></h3>
+            <div class="text-center mb-4">
+              <h5 class="gray text-left mb-3" [innerHTML]="this.content.slides['slide-10'].text['2'] | safehtml"></h5>
+  
+              <p class="gray mb-3" [innerHTML]="this.content.slides['slide-10'].preguntas['1'] | safehtml"></p>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="form-question1" id="deacuerdo1" value="option1">
+                <label class="form-check-label" [innerHTML]="this.content.slides['slide-10'].respuestas['1'] | safehtml"
+                  for="deacuerdo1">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="form-question1" id="desacuerdo1" value="option1">
+                <label class="form-check-label" [innerHTML]="this.content.slides['slide-10'].respuestas['2'] | safehtml"
+                  for="desacuerdo1">1</label>
+              </div>
+  
+  
+            </div>
+            <div class="text-center mb-4">
+              <h5 class="gray text-left mb-3" [innerHTML]="this.content.slides['slide-10'].text['3'] | safehtml"></h5>
+  
+              <p class="gray mb-3" [innerHTML]="this.content.slides['slide-10'].preguntas['1'] | safehtml"></p>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="form-question2" id="deacuerdo2" value="option1">
+                <label class="form-check-label" [innerHTML]="this.content.slides['slide-10'].respuestas['1'] | safehtml"
+                  for="deacuerdo2">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="form-question2" id="desacuerdo2" value="option1">
+                <label class="form-check-label" [innerHTML]="this.content.slides['slide-10'].respuestas['2'] | safehtml"
+                  for="desacuerdo2">1</label>
+              </div>
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='11'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left d-flex bgray justify-content-end align-items-center">
+            <img [src]="this.content.slides['slide-11'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue mt-2 mb-3" [innerHTML]="this.content.slides['slide-11'].text['1'] | safehtml"></h2>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-11'].text['8'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-11'].text['2'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-11'].text['3'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-11'].text['4'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-11'].text['5'] | safehtml"></p>
+            <p class="gray fw600 mb-5" [innerHTML]="this.content.slides['slide-11'].text['6'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-11'].text['7'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='12'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h2 class="fw700 blue text-center  mb-5 pl-5 pr-5"
+              [innerHTML]="this.content.slides['slide-12'].text['1'] | safehtml"></h2>
+  
+          </div>
+          <div class="col-12 col-md-8 slide-content ">
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-12'].text['2'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-12'].text['3'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-12'].text['4'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-12'].text['5'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='13'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+           
+            <h5 class="blue fw700 text-center mb-3" [innerHTML]="this.content.slides['slide-13'].text['1'] | safehtml"></h5>
+            <img [src]="this.content.slides['slide-13'].images['1']" class="img-fluid text-center img-boton mb-3" alt="">
+            <h5 class=" blue text-center mb-3" [innerHTML]="this.content.slides['slide-13'].text['2'] | safehtml"></h5>
+            
+          </div>
+        </div>
+      </div>
+    
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='14'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-14'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-6 slide-content d-flex justify-content-center align-items-center flex-column ">
+           
+            <h5 class="blue fw700 text-center mb-3" [innerHTML]="this.content.slides['slide-14'].text['1'] | safehtml"></h5>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-14'].text['2'] | safehtml"></p>
+            
+          </div>
+          <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-14'].images['2']" class="img-fluid img-slide-left" alt="">
+          </div>
+        </div>
+      </div>
+    
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='15'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h2 class="fw700 blue text-center  mb-5 pl-5 pr-5"
+              [innerHTML]="this.content.slides['slide-15'].text['1'] | safehtml"></h2>
+  
+          </div>
+          <div class="col-12 col-md-8 slide-content ">
+            <p class="gray mb-3" [innerHTML]="this.content.slides['slide-15'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question15" id="pregunta_15_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-15'].respuestas['1'] | safehtml"
+                for="pregunta_15_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question15" id="pregunta_15_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-15'].respuestas['2'] | safehtml"
+                for="pregunta_15_2">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question15" id="pregunta_15_3" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-15'].respuestas['3'] | safehtml"
+                for="pregunta_15_3">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question15" id="pregunta_15_4" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-15'].respuestas['4'] | safehtml"
+                for="pregunta_15_4">1</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='16'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h2 class="fw700 blue text-center  mb-5 pl-5 pr-5"
+              [innerHTML]="this.content.slides['slide-16'].text['1'] | safehtml"></h2>
+  
+          </div>
+          <div class="col-12 col-md-8 slide-content ">
+            <h4 class="blue fw700 text-left mb-3" [innerHTML]="this.content.slides['slide-16'].text['2'] | safehtml"></h4>
+            <p class="gray fw600 text-left mb-3" [innerHTML]="this.content.slides['slide-16'].text['3'] | safehtml"></p>
+            <p class="gray fw400 text-left mb-3" [innerHTML]="this.content.slides['slide-16'].text['4'] | safehtml"></p>
+           
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='17'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 slide-content ">
+            <h2 class="fw700 blue text-left  mb-5 pl-5 pr-5"
+              [innerHTML]="this.content.slides['slide-17'].text['1'] | safehtml"></h2>
+  
+          </div>
+          <div class="col-12 col-md-8 slide-content ">
+            <h4 class="gray fw600 text-left mb-3" [innerHTML]="this.content.slides['slide-17'].text['2'] | safehtml"></h4>
+            <p class="gray fw600 text-left mb-3" [innerHTML]="this.content.slides['slide-17'].text['3'] | safehtml"></p>
+            
+           
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='18'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left d-flex  bgray justify-content-end align-items-center">
+            <img [src]="this.content.slides['slide-18'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <h2 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-18'].text['1'] | safehtml"></h2>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-18'].text['2'] | safehtml"></p>
+            <h2 class="blue fw600 mb-3" [innerHTML]="this.content.slides['slide-18'].text['3'] | safehtml"></h2>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-18'].text['4'] | safehtml"></p>
+            <h2 class="blue fw600 mb-3" [innerHTML]="this.content.slides['slide-18'].text['5'] | safehtml"></h2>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-18'].text['6'] | safehtml"></p>
+            <p class="gray fw600 mb-5" [innerHTML]="this.content.slides['slide-18'].text['7'] | safehtml"></p>
+            
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='19'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left d-flex bgray justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-19'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <h2 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-19'].text['1'] | safehtml"></h2>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-19'].text['2'] | safehtml"></p>
+            <h2 class="blue fw600 mb-3" [innerHTML]="this.content.slides['slide-19'].text['3'] | safehtml"></h2>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-19'].text['4'] | safehtml"></p>
+            <h2 class="blue fw600 mb-3" [innerHTML]="this.content.slides['slide-19'].text['5'] | safehtml"></h2>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-19'].text['6'] | safehtml"></p>
+            
+            
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='20'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 text-center slide-content ">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-20'].text['1'] | safehtml"></p>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-20'].text['2'] | safehtml"></h3>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-20'].text['3'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-20'].text['4'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-20'].text['5'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='21'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-21'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-21'].text['1'] | safehtml"></h2>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-21'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question21" id="pregunta_21_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-21'].respuestas['1'] | safehtml"
+                for="pregunta_21_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question21" id="pregunta_21_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-21'].respuestas['2'] | safehtml"
+                for="pregunta_21_2">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question21" id="pregunta_21_3" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-21'].respuestas['3'] | safehtml"
+                for="pregunta_21_3">1</label>
+            </div>
+            <p class="gray fw400 mb-3 mt-5" [innerHTML]="this.content.slides['slide-21'].text['2'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='22'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 text-left slide-content ">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-22'].text['1'] | safehtml"></p>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-22'].text['2'] | safehtml"></h3>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-22'].text['3'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-22'].text['4'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-22'].text['5'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='23'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left d-flex bgray justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-23'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-23'].text['1'] | safehtml"></h2>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-23'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question23" id="pregunta_23_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-23'].respuestas['1'] | safehtml"
+                for="pregunta_23_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question23" id="pregunta_23_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-23'].respuestas['2'] | safehtml"
+                for="pregunta_23_2">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question23" id="pregunta_23_3" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-23'].respuestas['3'] | safehtml"
+                for="pregunta_23_3">1</label>
+            </div>
+            <p class="gray fw400 mb-3 mt-5" [innerHTML]="this.content.slides['slide-23'].text['2'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='24'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 text-center slide-content ">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-24'].text['1'] | safehtml"></p>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-24'].text['2'] | safehtml"></h3>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-24'].text['3'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-24'].text['4'] | safehtml"></p>
+           
+          </div>
+        </div>
+      </div>
+   
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='25'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left d-flex bgray justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-25'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-25'].text['1'] | safehtml"></h2>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-25'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question25" id="pregunta_25_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-25'].respuestas['1'] | safehtml"
+                for="pregunta_25_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question25" id="pregunta_25_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-25'].respuestas['2'] | safehtml"
+                for="pregunta_25_2">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question25" id="pregunta_25_3" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-25'].respuestas['3'] | safehtml"
+                for="pregunta_25_3">1</label>
+            </div>
+            <p class="gray fw400 mb-3 mt-5" [innerHTML]="this.content.slides['slide-25'].text['2'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='26'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 text-center slide-content ">
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-26'].text['1'] | safehtml"></h3>
+            <h3 class="blue fw600 mb-3" [innerHTML]="this.content.slides['slide-26'].text['2'] | safehtml"></h3>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-26'].text['3'] | safehtml"></p>
+           
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='27'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left d-flex bgray justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-27'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-27'].text['1'] | safehtml"></h2>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-27'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question27" id="pregunta_27_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-27'].respuestas['1'] | safehtml"
+                for="pregunta_27_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question27" id="pregunta_27_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-27'].respuestas['2'] | safehtml"
+                for="pregunta_27_2">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question27" id="pregunta_27_3" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-27'].respuestas['3'] | safehtml"
+                for="pregunta_27_3">1</label>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='28'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+           
+            <h5 class="blue fw700 text-center mb-3" [innerHTML]="this.content.slides['slide-28'].text['1'] | safehtml"></h5>
+            <img [src]="this.content.slides['slide-28'].images['1']" class="img-fluid text-center img-boton mb-3" alt="">
+            <h5 class=" blue text-center mb-3" [innerHTML]="this.content.slides['slide-28'].text['2'] | safehtml"></h5>
+            
+          </div>
+        </div>
+      </div>
+  
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='29'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 text-left slide-content ">
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-29'].text['1'] | safehtml"></h3>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-29'].text['2'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-29'].text['3'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-29'].text['4'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-29'].text['5'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-29'].text['6'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+   
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='30'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 text-left slide-content ">
+            <h3 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-32'].text['1'] | safehtml"></h3>
+            <p class="darkBlue fw600 mb-3" [innerHTML]="this.content.slides['slide-30'].text['2'] | safehtml"></p>
+            <p class="darkBlue fw600 mb-3" [innerHTML]="this.content.slides['slide-30'].text['3'] | safehtml"></p>
+            <p class="gray fw600 mb-3" [innerHTML]="this.content.slides['slide-30'].text['4'] | safehtml"></p>
+           
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='31'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 div-left p-3 d-flex justify-content-center align-items-start">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-31'].text['1'] | safehtml"></p>
+            <img [src]="this.content.slides['slide-31'].images['2']" class="img-fluid img-slide-left2" alt="">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-31'].text['2'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-31'].text['3'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-31'].text['4'] | safehtml"></p>
+          </div>
+          <div class="col-12 col-md-4 div-right bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-31'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='32'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left p-3  bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-32'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right  d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-32'].text['1'] | safehtml"></h2>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-32'].text['2'] | safehtml"></h3>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-32'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question32" id="pregunta_32_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-32'].respuestas['1'] | safehtml"
+                for="pregunta_32_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question32" id="pregunta_32_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-32'].respuestas['2'] | safehtml"
+                for="pregunta_32_2">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question32" id="pregunta_32_3" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-32'].respuestas['3'] | safehtml"
+                for="pregunta_32_3">1</label>
+            </div>
+            <p class="gray fw400 mb-3 mt-4" [innerHTML]="this.content.slides['slide-32'].text['3'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='33'}" class="section slides ">
+      <div class="contianer-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 div-left p-3 d-flex justify-content-center align-items-start">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-33'].text['1'] | safehtml"></p>
+            <img [src]="this.content.slides['slide-33'].images['2']" class="img-fluid img-slide-left2" alt="">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-33'].text['2'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-33'].text['3'] | safehtml"></p>
+            
+          </div>
+          <div class="col-12 col-md-4 div-right bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-33'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='34'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left p-3  bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-34'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right  d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-34'].text['1'] | safehtml"></h2>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-34'].text['2'] | safehtml"></h3>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-34'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question34" id="pregunta_34_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-34'].respuestas['1'] | safehtml"
+                for="pregunta_34_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question34" id="pregunta_34_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-34'].respuestas['2'] | safehtml"
+                for="pregunta_34_2">1</label>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='35'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 div-left p-3 d-flex justify-content-center align-items-start">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-35'].text['1'] | safehtml"></p>
+            <img [src]="this.content.slides['slide-35'].images['2']" class="img-fluid img-slide-left2" alt="">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-35'].text['2'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-35'].text['3'] | safehtml"></p>
+            
+          </div>
+          <div class="col-12 col-md-4 div-right bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-35'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='36'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left p-3  bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-36'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right  d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-36'].text['1'] | safehtml"></h2>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-36'].text['2'] | safehtml"></h3>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-36'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question36" id="pregunta_36_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-36'].respuestas['1'] | safehtml"
+                for="pregunta_36_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question36" id="pregunta_36_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-36'].respuestas['2'] | safehtml"
+                for="pregunta_36_2">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question36" id="pregunta_36_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-36'].respuestas['3'] | safehtml"
+                for="pregunta_36_2">1</label>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='37'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 div-left p-3 d-flex justify-content-center align-items-start">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-37'].text['1'] | safehtml"></p>
+            <img [src]="this.content.slides['slide-37'].images['2']" class="img-fluid img-slide-left2" alt="">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-37'].text['2'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-37'].text['3'] | safehtml"></p>
+            
+          </div>
+          <div class="col-12 col-md-4 div-right bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-37'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='38'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left p-3  bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-38'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right  d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-38'].text['1'] | safehtml"></h2>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-38'].text['2'] | safehtml"></h3>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-38'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question38" id="pregunta_38_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-38'].respuestas['1'] | safehtml"
+                for="pregunta_38_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question38" id="pregunta_38_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-38'].respuestas['2'] | safehtml"
+                for="pregunta_38_2">1</label>
+            </div>
+            <p class="gray fw400 mb-3 mt-4" [innerHTML]="this.content.slides['slide-38'].text['3'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='39'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 div-left p-3 d-flex justify-content-center align-items-start">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-39'].text['1'] | safehtml"></p>
+            <img [src]="this.content.slides['slide-39'].images['2']" class="img-fluid img-slide-left2" alt="">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-39'].text['2'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-39'].text['3'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-39'].text['4'] | safehtml"></p>
+            
+          </div>
+          <div class="col-12 col-md-4 div-right bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-39'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='40'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left p-3  bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-40'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right  d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-40'].text['1'] | safehtml"></h2>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-40'].text['2'] | safehtml"></h3>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-40'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question40" id="pregunta_40_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-40'].respuestas['1'] | safehtml"
+                for="pregunta_40_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question40" id="pregunta_40_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-40'].respuestas['2'] | safehtml"
+                for="pregunta_40_2">1</label>
+            </div>
+            <p class="gray fw400 mb-3 mt-4" [innerHTML]="this.content.slides['slide-40'].text['3'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='41'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8 div-left p-3 d-flex justify-content-center align-items-start">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-41'].text['1'] | safehtml"></p>
+            <img [src]="this.content.slides['slide-41'].images['2']" class="img-fluid img-slide-left2" alt="">
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-41'].text['2'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-41'].text['3'] | safehtml"></p>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-41'].text['4'] | safehtml"></p>
+            
+          </div>
+          <div class="col-12 col-md-4 div-right bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-41'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='42'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left p-3  bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-42'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right  d-flex justify-content-center align-items-start">
+            <h2 class="darkBlue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-42'].text['1'] | safehtml"></h2>
+            <h3 class="blue fw600 mt-2 mb-3" [innerHTML]="this.content.slides['slide-42'].text['2'] | safehtml"></h3>
+            <p class="gray fw400 mb-3" [innerHTML]="this.content.slides['slide-42'].preguntas['1'] | safehtml"></p>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question42" id="pregunta_42_1" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-42'].respuestas['1'] | safehtml"
+                for="pregunta_42_1">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question42" id="pregunta_42_2" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-42'].respuestas['2'] | safehtml"
+                for="pregunta_42_2">1</label>
+            </div>
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="form-question42" id="pregunta_42_3" value="option1">
+              <label class="form-check-label gray fw600" [innerHTML]="this.content.slides['slide-42'].respuestas['3'] | safehtml"
+                for="pregunta_42_3">1</label>
+            </div>
+            <p class="gray fw400 mb-3 mt-4" [innerHTML]="this.content.slides['slide-42'].text['3'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='43'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-4 div-left p-3  bgray d-flex justify-content-center align-items-center">
+            <img [src]="this.content.slides['slide-43'].images['1']" class="img-fluid img-slide-left" alt="">
+          </div>
+          <div class="col-12 col-md-8 div-right  d-flex justify-content-center align-items-start">
+            <p class="gray fw400 mb-3 mt-1" [innerHTML]="this.content.slides['slide-43'].text['1'] | safehtml"></p>
+            <p class="gray fw400 mb-3 mt-1" [innerHTML]="this.content.slides['slide-43'].text['2'] | safehtml"></p>
+            <p class="gray fw400 mb-3 mt-1" [innerHTML]="this.content.slides['slide-43'].text['3'] | safehtml"></p>
+            <p class="gray fw400 mb-3 mt-1" [innerHTML]="this.content.slides['slide-43'].text['4'] | safehtml"></p>
+            <p class="gray fw400 mb-3 mt-1" [innerHTML]="this.content.slides['slide-43'].text['5'] | safehtml"></p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='44'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h4 class="fw700 blue text-left  mb-3"
+              [innerHTML]="this.content.slides['slide-44'].text['1'] | safehtml"></h4>
+            <h5 class=" text-left" [innerHTML]="this.content.slides['slide-44'].text['2'] | safehtml"></h5>
+            <div class="form-group">
+              <label for="text" class="">Responda por favor en esta caja de texto</label>
+              <textarea name="" id="caja_texto_slide_44" cols="30" class="form-control" value="this._AS.caja_texto_slide_44" rows="3"></textarea>
+            </div>
+           
+          </div>
+        </div>
+      
+      </div>
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='45'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content ">
+            <h4 class="fw700 blue text-left  mb-3"
+              [innerHTML]="this.content.slides['slide-45'].text['1'] | safehtml"></h4>
+            <h5 class=" text-left" [innerHTML]="this.content.slides['slide-45'].text['2'] | safehtml"></h5>
+            <div class="form-group">
+              <label for="text" class="">Responda por favor en esta caja de texto</label>
+              <textarea name="" id="caja_texto_slide_45" cols="30" class="form-control" value="this._AS.caja_texto_slide_45" rows="3"></textarea>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+    
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='46'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-9 slide-content ">
+            <h4 class="fw700 blue text-left  mb-3"
+              [innerHTML]="this.content.slides['slide-46'].text['1'] | safehtml"></h4>
+            <h5 class=" text-left" [innerHTML]="this.content.slides['slide-46'].text['2'] | safehtml"></h5>
+            <div class="form-group">
+              <label for="text" class="">Responda por favor en esta caja de texto</label>
+              <textarea name="" id="caja_texto_slide_46" cols="30" class="form-control" value="this._AS.caja_texto_slide_46" rows="3"></textarea>
+            </div>
+           
+          </div>
+        </div>
+      
+      </div>
+  
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='47'}" class="section slides ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 slide-content text-center ">
+            <h1 class="fw700 darkBlue text-center  mb-3"
+              [innerHTML]="this.content.slides['slide-47'].text['1'] | safehtml"></h1>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section [ngClass]="{'active': this._AS.actual=='48'}" class="section home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex align-items-end ">
+            <img [src]="this.content.slides['slide-48'].images['1']" class="img-fluid mh500 img-home" alt="">
+          </div>
+          <div class="col-12 col-md-6 d-flex align-items-end ">
+            <img [src]="this.content.slides['slide-48'].images['2']" class="img-fluid mh500 img-home" alt="">
+          </div>
+        
+        </div>
+  
+      </div>
+    
+    </section>
+  </div>
+</div>
+<app-footer> </app-footer>
+  <!-- Modal -->
+  <div class="modal fade" id="modal_campo_vacio" tabindex="-1" aria-labelledby="modal_campo_vacioLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-12 text-center p-5">
+              <h2 *ngIf="this._AS.pause && !this._AS.max_value" class="darkBlue fw900" >Para continuar<br>debes responder la pregunta</h2>
+              <h2 *ngIf="this._AS.pause && this._AS.max_value" class="darkBlue fw900" >Solo se permite un maximo de 1000 caracteres</h2>
+              <h2 *ngIf="!this._AS.pause" class="darkBlue fw900" >Gracias por su respuesta</h2>
+              <p *ngIf="!this._AS.pause" class="gray fw700">¡Sigamos adelante!</p>
+              <button *ngIf="this._AS.pause" type="button" class="btn btn-primary" data-dismiss="modal">Volver</button>
+              <button  *ngIf="!this._AS.pause" data-dismiss="modal" type="button" class="btn btn-primary">Siguiente</button>
+            </div>
+          </div>
+         
+        </div>
+      
+      </div>
+    </div>
+  </div>

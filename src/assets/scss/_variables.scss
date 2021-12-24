@@ -1,0 +1,47 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+$yellow: #f3c22b;
+$blue: #00b0f0;
+$darkBlue: #434a97;
+$red: #ef4b4a;
+$gray:rgb(129,129,129);
+$gray2:#f3f4f4;
+.fw400 {
+  font-weight: 400;
+}
+.fw600 {
+  font-weight: 600;
+}
+.fw700 {
+  font-weight: 700;
+}
+.fw900 {
+  font-weight: 900;
+}
+
+.yellow {
+  color: $yellow;
+}
+.blue {
+  color: $blue;
+}
+.darkBlue {
+    color: $darkBlue;
+  }
+.red {
+  color: $red;
+}
+.gray{
+  color: $gray;
+}
+.nota{
+  font-size: .9rem;
+}
+.underline{
+    text-decoration: underline;
+}
+.fsize_8{
+    font-size: .8rem;
+}
